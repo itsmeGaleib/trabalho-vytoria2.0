@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto com CSS Embutido</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        }
+        .card img {
+            border-radius: 8px;
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Projeto Web</h1>
+    </header>
+    <main>
+        <h2>Bem-vindo ao Meu Site</h2>
+        <p>Este é um exemplo de uma página web com um pouco mais complexo, incluindo cards informativos.</p>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="Imagem Exemplo">
+                <h3>Card 1</h3>
+                <p>Esse é o primeiro card, nele e possivel escrever uma descriçao</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="Imagem Exemplo">
+                <h3>Card 2</h3>
+                <p>Descrição do segundo card. Pode ter informações relevantes ou links.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/150" alt="Imagem Exemplo">
+                <h3>Card 3</h3>
+                <p>Descrição do terceiro card. Pode incluir informações relevantes mais aprofundadas ou links.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Meu Projeto Web</p>
+    </footer>
+</body>
+</html>
